@@ -1,17 +1,12 @@
-import { cssBundleHref } from "@remix-run/css-bundle";
-import type { LinksFunction } from "@remix-run/node";
+import "./tailwind.css";
+
 import {
   Links,
-  LiveReload,
   Meta,
   Outlet,
-  Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-
-export const links: LinksFunction = () => [
-  ...(cssBundleHref ? [{ rel: "stylesheet", href: cssBundleHref }] : []),
-];
+import {Header} from "./components/Header";
 
 export default function App() {
   return (
@@ -22,11 +17,10 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="bg-slate-100">
+      <Header/>
         <Outlet />
         <ScrollRestoration />
-        <Scripts />
-        <LiveReload />
       </body>
     </html>
   );
