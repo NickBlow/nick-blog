@@ -21,7 +21,7 @@ export const loader = async () => {
     posts: [
       {
         slug: '9-lessons-from-9-years-of-serverless',
-        title: '9 Lessons from 9 Years in Serverless',
+        title: '9 Lessons from 9 Years of Serverless',
         date: '18 March, 2024',
         description: "Serverless is great, and it keeps getting better. Here, I share some tips and tricks that I've learned over the years."
       },
@@ -30,6 +30,12 @@ export const loader = async () => {
         title: 'This blog is open source!',
         date: '19 March, 2024',
         description: "Plus some fiddly things about deploying Remix to Cloudflare Pages."
+      },
+      {
+        slug: 'tailwind-is-a-local-maxima-and-its-okay',
+        title: 'Tailwind is a local maxima and its okay!',
+        date: '6 April, 2024',
+        description: "Weighing in on the Tailwind 'discourse'."
       },
     ],
   });

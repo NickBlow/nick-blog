@@ -1,5 +1,6 @@
 import {json, MetaFunction, LoaderFunctionArgs, HeadersFunction} from "@remix-run/cloudflare";
 import {useLoaderData} from "@remix-run/react";
+import 'highlight.js/styles/github.css';
 
 export async function loader({
                                  params,
@@ -70,7 +71,7 @@ export const meta: MetaFunction<typeof loader> = ({data}) => {
 export default function PostSlug() {
     const {markdown} = useLoaderData<typeof loader>();
     return (
-        <main className="prose-stone prose-xl flex justify-center pt-10 px-6 prose-a:text-blue-600">
+        <main className="prose-stone prose-xl prose mx-auto justify-center pt-10 px-6 prose-a:text-blue-600">
             <div className="max-w-prose" dangerouslySetInnerHTML={{__html: markdown}}>
             </div>
         </main>
