@@ -8,15 +8,23 @@ export async function loader({
                              }: LoaderFunctionArgs) {
     const host = request.headers.get("host");
     const route = params.slug;
-    const {html: markdown, attributes} = await import(`../../public/articles/${route}/index.md`);
+    try {
+        const {html: markdown, attributes} = await import(`../../public/articles/${route}/index.md`);
 
-    const img = `https://${host}/articles/${route}/og-image.png`;
-    return json({
-        markdown,
-        attributes,
-        route,
-        img
-    });
+        const img = `https://${host}/articles/${route}/og-image.png`;
+        return json({
+            markdown,
+            attributes,
+            route,
+            img
+        });
+    } catch (e) {
+        throw new Response(null, {
+            status: 404,
+            statusText: "Not Found",
+        });
+
+    }
 }
 
 export const headers: HeadersFunction = () => ({
