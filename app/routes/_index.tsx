@@ -32,8 +32,8 @@ export const loader = async () => {
         description: "Plus some fiddly things about deploying Remix to Cloudflare Pages."
       },
       {
-        slug: 'tailwind-is-a-local-maxima-and-its-okay',
-        title: 'Tailwind is a local maxima and its okay!',
+        slug: 'tailwind-is-not-always-optimal-and-thats-okay',
+        title: 'Tailwind is not always optimal. And that\'s okay!',
         date: '6 April, 2024',
         description: "Weighing in on the Tailwind 'discourse'."
       },

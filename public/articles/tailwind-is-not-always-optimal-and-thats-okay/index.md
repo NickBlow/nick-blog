@@ -1,8 +1,8 @@
 ---
-title: Tailwind is a local maxima. And that's okay!
+title: Tailwind is not always optimal. And that's okay!
 ---
 
-# Tailwind is a local maxima. And that's okay!
+# Tailwind is not always optimal. And that's okay!
 
 Tailwind seems to be a divisive topic online, and I've spotted a bunch of opinions disguised as facts, outright misinformation and strong feelings.
 
@@ -12,7 +12,7 @@ I thought I'd weigh in on the conversation - as it seems to be evergreen and cro
 
 Let's just get this one out of the way first.
 
-![Lots of tailwind classes](/articles/tailwind-is-a-local-maxima-and-its-okay/img.png)
+![Lots of tailwind classes](/articles/tailwind-is-not-always-optimal-and-thats-okay/img.png)
 
 Yes, it's verbose. I initially hated it. There's some advantages (which I'll get into), but a lot of it is getting the knowledge & tooling set up properly. Lots of these examples tend to be egregious and cherry picked too - the equivalent CSS to achieve the above is also fairly long, and it's using the *optional* `tw-` prefix to pad the length.
 
