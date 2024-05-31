@@ -19,11 +19,18 @@ export const meta: MetaFunction = () => {
 export const loader = async () => {
   return json({
     posts: [
+
       {
-        slug: '9-lessons-from-9-years-of-serverless',
-        title: '9 Lessons from 9 Years of Serverless',
-        date: '18 March, 2024',
-        description: "Serverless is great, and it keeps getting better. Here, I share some tips and tricks that I've learned over the years."
+        slug: 'solid-start-inside-a-durable-object',
+        title: 'Solid Start inside a Durable Object.',
+        date: '31 May, 2024',
+        description: "Running Solid Start inside a durable object was fairly simple thanks to the pluggable architecture."
+      },
+      {
+        slug: 'tailwind-is-not-always-optimal-and-thats-okay',
+        title: 'Tailwind is not always optimal. And that\'s okay!',
+        date: '6 April, 2024',
+        description: "Weighing in on the Tailwind 'discourse'."
       },
       {
         slug: 'this-blog-is-open-source',
@@ -32,10 +39,10 @@ export const loader = async () => {
         description: "Plus some fiddly things about deploying Remix to Cloudflare Pages."
       },
       {
-        slug: 'tailwind-is-not-always-optimal-and-thats-okay',
-        title: 'Tailwind is not always optimal. And that\'s okay!',
-        date: '6 April, 2024',
-        description: "Weighing in on the Tailwind 'discourse'."
+        slug: '9-lessons-from-9-years-of-serverless',
+        title: '9 Lessons from 9 Years of Serverless',
+        date: '18 March, 2024',
+        description: "Serverless is great, and it keeps getting better. Here, I share some tips and tricks that I've learned over the years."
       },
     ],
   });
