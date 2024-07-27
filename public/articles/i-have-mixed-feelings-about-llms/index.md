@@ -61,6 +61,12 @@ It's often not right first time, and helping it reason through a problem helps b
 
 The more familiar you are with programming, the more powerful AI is.
 
+## The fear of a blank page
+
+One hypothesis I have as well that is that LLMs make it easier to make that first step. If you are starting something, it's often hard to know where to start. If you can get an LLM to write the first line, you're no longer staring at a blank file.
+
+Some people are more susceptible to this than others - it requires self-discipline and motivation, especially if you're doing a side-project, to begin something. Intensely self-motivated people don't need a push, but many people do.
+
 ## Google's demise?
 
 One major factor in my increasing initial LLM usage was the massively degraded quality of Google search results. A few years ago, Google seemed almost magical in its ability to discover exactly what I was looking for.
