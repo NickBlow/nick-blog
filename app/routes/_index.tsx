@@ -20,6 +20,13 @@ export const loader = async () => {
 	return json({
 		posts: [
 			{
+				slug: "i-have-mixed-feelings-about-llms",
+				title: " I have mixed feelings about LLMs",
+				date: "27 July, 2024",
+				description:
+					"In which I explore my complicated relationship with generative AI",
+			},
+			{
 				slug: "solid-start-inside-a-durable-object",
 				title: "Solid Start inside a Durable Object.",
 				date: "31 May, 2024",
