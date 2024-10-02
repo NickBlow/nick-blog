@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.markdown-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

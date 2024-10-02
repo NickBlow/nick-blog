@@ -133,12 +133,13 @@ export default function injectDurableObjects(): Plugin {
 }
 ```
 
+![Inception](/articles/a-hack-for-durable-objects-with-astro/og-image.png)
+
 We're running rollup INSIDE a Vite plugin, which is a bit inception-y. But what better way to bundle dependencies than a bundler? And (for the moment) rollup comes with Vite.
 
 We generate a fake barrel file including all our objects, bundle that into one file (deduping and resolving imports for free!) and shove that into the index.js.
 
 Probably will have to be replaced with Rolldown in future. This is rather brittle, but at least it does the right thing!
-
 
 ## More to come (hopefully)!
 

@@ -81,7 +81,7 @@ export default function PostSlug() {
 	return (
 		<main className="prose-stone prose-xl mx-auto justify-center pt-10 px-6 prose-a:text-blue-600 min-w-[90%]">
 			<div
-				className="max-w-[70%] mx-auto w-[80ch]"
+				className="max-w-[70%] mx-auto w-[80ch] markdown-content"
 				dangerouslySetInnerHTML={{ __html: markdown }}
 			></div>
 		</main>
