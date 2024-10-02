@@ -26,7 +26,7 @@ export const Header = () => {
 					rel="noopener noreferrer"
 					className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded text-center"
 				>
-					Follow me on Twitter
+					Follow me on X dot com
 				</a>
 			</div>
 		</header>
