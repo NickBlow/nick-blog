@@ -20,6 +20,13 @@ export const loader = async () => {
 	return json({
 		posts: [
 			{
+				slug: "a-hack-for-durable-objects-with-astro",
+				title: "A hack for durable objects and Astro",
+				date: "2 Oct, 2024",
+				description:
+					"I wanted to use Durable Objects with the new Workers Assets Astro integration...",
+			},
+			{
 				slug: "i-have-mixed-feelings-about-llms",
 				title: " I have mixed feelings about LLMs",
 				date: "27 July, 2024",
