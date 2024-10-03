@@ -11,6 +11,8 @@ I've been exploring Astro, and I really like it. I wanted to give a go to the ne
 
 You can't bind Durable Objects to the legacy Cloudflare Pages integration. But Workers Assets is *just* a worker, meaning it can access everything a normal worker can. Like Durable Object bindings...
 
+**NOTE: This only works when built. I'm still trying to find a good solution for dev mode. In the mean time you can run a separate worker in another terminal.**
+
 ## Durable Objects, an aside
 
 Durable Objects are really cool. They're essentially persistent compute + storage, with neat pseudo-actor semantics.
