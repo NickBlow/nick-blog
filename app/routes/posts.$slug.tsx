@@ -5,7 +5,7 @@ import {
 	HeadersFunction,
 } from "@remix-run/cloudflare";
 import { useLoaderData } from "@remix-run/react";
-import "highlight.js/styles/github.css";
+import "highlight.js/styles/github-dark-dimmed.css";
 
 export async function loader({ params, request }: LoaderFunctionArgs) {
 	const host = request.headers.get("host");

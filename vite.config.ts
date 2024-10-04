@@ -12,10 +12,11 @@ import { plugin, Mode } from "vite-plugin-markdown";
 // @ts-expect-error the plugin uses the initialiser.
 const md = MarkdownIt({
 	highlight: function (str, lang) {
+		const codeClasses = "p-[15px] pt-[30px] m-0 w-full rounded-[16px]";
 		if (lang && hljs.getLanguage(lang)) {
 			try {
 				return (
-					'<pre><code class="hljs">' +
+					`<pre class="!p-0"><code class="hljs ${codeClasses}">` +
 					hljs.highlight(str, { language: lang, ignoreIllegals: true }).value +
 					"</code></pre>"
 				);
@@ -25,7 +26,7 @@ const md = MarkdownIt({
 		}
 
 		return (
-			'<pre><code class="hljs">' + md.utils.escapeHtml(str) + "</code></pre>"
+			`<pre class="!p-0"><code class="hljs ${codeClasses}}">` + md.utils.escapeHtml(str) + "</code></pre>"
 		);
 	},
 });
