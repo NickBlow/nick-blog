@@ -13,21 +13,21 @@ import { plugin, Mode } from "vite-plugin-markdown";
 const md = MarkdownIt({
 	highlight: function (str, lang) {
 		const codeClasses = "p-[15px] pt-[30px] m-0 w-full rounded-[16px]";
+		// @ts-expect-error using the plugin inside the plugin
+		let content = md.utils.escapeHtml(str);
 		if (lang && hljs.getLanguage(lang)) {
 			try {
-				return (
-					`<pre class="!p-0"><code class="hljs ${codeClasses}">` +
-					hljs.highlight(str, { language: lang, ignoreIllegals: true }).value +
-					"</code></pre>"
-				);
-			} catch (__) {
-				/* empty */
+				content = hljs.highlight(str, { language: lang, ignoreIllegals: true }).value;
+			} catch (e) {
+				console.error(e);
 			}
 		}
-
 		return (
-			`<pre class="!p-0"><code class="hljs ${codeClasses}}">` + md.utils.escapeHtml(str) + "</code></pre>"
+			`<pre class="!p-0"><code class="hljs ${codeClasses}">`
+			+ content
+			+ "</code></pre>"
 		);
+
 	},
 });
 md.use(MarkdownItAnchor, {});
