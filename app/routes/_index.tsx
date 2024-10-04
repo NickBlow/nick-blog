@@ -20,6 +20,13 @@ export const loader = async () => {
 	return json({
 		posts: [
 			{
+				slug: "another-hack-for-durable-objects-with-astro",
+				title: "Another hack for durable objects and Astro",
+				date: "4 Oct, 2024",
+				description:
+					"Working around various wrangler limitations. Is the DX better? I can't tell.",
+			},
+			{
 				slug: "a-hack-for-durable-objects-with-astro",
 				title: "A hack for durable objects and Astro",
 				date: "2 Oct, 2024",
