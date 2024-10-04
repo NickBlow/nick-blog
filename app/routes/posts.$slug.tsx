@@ -79,9 +79,9 @@ export const meta: MetaFunction<typeof loader> = ({ data }) => {
 export default function PostSlug() {
 	const { markdown } = useLoaderData<typeof loader>();
 	return (
-		<main className="prose-stone prose-xl mx-auto justify-center pt-10 px-6 prose-a:text-blue-600 min-w-[90%]">
+		<main className="prose-stone prose-xl mx-auto justify-center pt-10 px-4 sm:px-6 min-w-[90%]">
 			<div
-				className="max-w-[70%] mx-auto w-[80ch] markdown-content"
+				className="max-w-full sm:max-w-[70%] mx-auto w-full sm:w-[80ch] markdown-content"
 				dangerouslySetInnerHTML={{ __html: markdown }}
 			></div>
 		</main>
