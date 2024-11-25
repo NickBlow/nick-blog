@@ -1,3 +1,7 @@
+---
+title: I made the mistake of trying to write a test...
+description: My oddysey to get a single unit test passing with Durable Objects.
+---
 # I made the mistake of trying to write a test...
 
 Yesterday I tried to write some unit tests for my [durable objects](https://nickblow.tech/posts/another-hack-for-durable-objects-with-astro). Simple, right?
