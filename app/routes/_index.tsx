@@ -20,6 +20,13 @@ export const loader = async () => {
 	return json({
 		posts: [
 			{
+				slug: "i-made-the-mistake-of-trying-to-write-a-test",
+				title: "I made the mistake of trying to write a test",
+				date: "25 Nov, 2024",
+				description:
+					"My oddysey to get a single unit test passing with Durable Objects.",
+			},
+			{
 				slug: "another-hack-for-durable-objects-with-astro",
 				title: "Another hack for durable objects and Astro",
 				date: "4 Oct, 2024",
