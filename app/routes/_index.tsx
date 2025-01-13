@@ -20,6 +20,13 @@ export const loader = async () => {
 	return json({
 		posts: [
 			{
+				slug: "the-books-i-read-in-2024",
+				title: "The books I read in 2024",
+				date: "12 Jan, 2025",
+				description:
+					"A retrospective and mini-review of the fiction and non-fiction I read last year.",
+			},
+			{
 				slug: "i-made-the-mistake-of-trying-to-write-a-test",
 				title: "I made the mistake of trying to write a test",
 				date: "25 Nov, 2024",

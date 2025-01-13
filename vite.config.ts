@@ -17,17 +17,19 @@ const md = MarkdownIt({
 		let content = md.utils.escapeHtml(str);
 		if (lang && hljs.getLanguage(lang)) {
 			try {
-				content = hljs.highlight(str, { language: lang, ignoreIllegals: true }).value;
+				content = hljs.highlight(str, {
+					language: lang,
+					ignoreIllegals: true,
+				}).value;
 			} catch (e) {
 				console.error(e);
 			}
 		}
 		return (
-			`<pre class="!p-0"><code class="hljs ${codeClasses}">`
-			+ content
-			+ "</code></pre>"
+			`<pre class="!p-0"><code class="hljs ${codeClasses}">` +
+			content +
+			"</code></pre>"
 		);
-
 	},
 });
 md.use(MarkdownItAnchor, {});
