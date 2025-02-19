@@ -86,7 +86,7 @@ export const loader = async () => {
 };
 
 const bio =
-	"Hey, I’m Nick, CTO at a startup called Wakelet. I love Golang and infrastructure, but I enjoy learning about everything Web. Outside of work, I enjoy spending time with my wife and baby daughter, producing electronic music, and playing video games.";
+	"Hey, I’m Nick, CTO at a startup called Wakelet. I love Golang and infrastructure, but I enjoy learning about everything Web. Outside of work, I enjoy spending time with my wife and two young daughters, producing electronic music, and playing video games.";
 
 export default function PostSlug() {
 	const { posts } = useLoaderData<typeof loader>();
