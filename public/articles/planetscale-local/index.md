@@ -7,6 +7,8 @@ description: Some example code for using a local MySQL instance with planetscale
 
 TL;DR, look at [this gist](https://gist.github.com/NickBlow/50416afdd782617db05ceebdc82d2a52) for the code.
 
+Update: Matt Robenolt from Planetscale [pointed out on X](https://x.com/mattrobenolt/status/1903261372068282517) that he's working on a [local simulator](https://github.com/mattrobenolt/ps-http-sim) for their HTTP endpoint, so this may be a better solution!
+
 I finally took the plunge and moved something I've been working on from Durable Objects SQL to PlanetScale. I just had a second baby, so time (and energy) have been few and far between, but it wasn't too hard with some LLM assistance. I had a fairly comprehensive test suite which helped validate I haven't broken anything in the process.
 
 While developing against the production branch, I was kind of annoyed at the latency to the cloud, and wanted to develop against a locally running MySQL container.
