@@ -39,6 +39,8 @@ With a compatibility date of `2025-03-10` or later, `nodejs_compat_v2` enabled a
 
 The code is in [this gist](https://gist.github.com/NickBlow/50416afdd782617db05ceebdc82d2a52), but reproduced below.
 
+Update: The original version of this code didn't handle timezone offsets. This has been fixed below and in the gist.
+
 ```typescript
 import mysql, { FieldPacket, OkPacket } from "mysql2/promise";
 import { Connection } from "@planetscale/database";
@@ -67,6 +69,9 @@ export class PlanetScaleLocal {
       connectionLimit: 10,
       queueLimit: 0,
       disableEval: true,
+      timezone: "+00:00",
+      // Tell mysql2 to return dates as strings
+      dateStrings: true,
     });
 
     // Initialize the cached connection interface
@@ -84,6 +89,8 @@ export class PlanetScaleLocal {
           let formattedRows: any;
           if (Array.isArray(rows)) {
             formattedRows = rows;
+            // Make sure date fields are returned as strings in MySQL format
+            // This matches PlanetScale's behavior
           } else if ("affectedRows" in rows) {
             const okPacket = rows as OkPacket;
             formattedRows = [
@@ -148,6 +155,8 @@ export class PlanetScaleLocal {
               let formattedRows: any;
               if (Array.isArray(rows)) {
                 formattedRows = rows;
+                // Make sure date fields are returned as strings in MySQL format
+                // This matches PlanetScale's behavior
               } else if ("affectedRows" in rows) {
                 const okPacket = rows as OkPacket;
                 formattedRows = [
