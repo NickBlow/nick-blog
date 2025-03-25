@@ -39,7 +39,7 @@ export const loader = async () => {
         title: "I made the mistake of trying to write a test",
         date: "25 Nov, 2024",
         description:
-          "My oddysey to get a single unit test passing with Durable Objects.",
+          "My odyssey to get a single unit test passing with Durable Objects.",
       },
       {
         slug: "another-hack-for-durable-objects-with-astro",

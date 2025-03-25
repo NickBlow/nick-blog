@@ -1,6 +1,6 @@
 ---
 title: I made the mistake of trying to write a test...
-description: My oddysey to get a single unit test passing with Durable Objects.
+description: My odyssey to get a single unit test passing with Durable Objects.
 ---
 # I made the mistake of trying to write a test...
 
