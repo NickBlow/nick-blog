@@ -21,6 +21,14 @@ export const loader = async () => {
     // TODO: - autogenerate this somehow.
     posts: [
       {
+        slug: "serverless-straight-to-s3-uploads",
+        title: "Serverless Straight to S3 Uploads",
+        date: "9 May, 2025",
+        description:
+          "A 'fun' technique for emulating some of the functionality of Cloudflare Workers",
+      },
+
+      {
         slug: "planetscale-local",
         title: "Running Planetscale's Serverless Driver Locally",
         date: "21 March, 2025",
