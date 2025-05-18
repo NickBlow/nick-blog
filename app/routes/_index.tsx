@@ -21,6 +21,12 @@ export const loader = async () => {
     // TODO: - autogenerate this somehow.
     posts: [
       {
+        slug: "hypermedia-in-the-age-of-ai",
+        title: "Hypermedia in the Age of AI",
+        date: "9 May, 2025",
+        description: "In which I make the case for hypermedia for LLMs.",
+      },
+      {
         slug: "serverless-straight-to-s3-uploads",
         title: "Serverless Straight to S3 Uploads",
         date: "9 May, 2025",
