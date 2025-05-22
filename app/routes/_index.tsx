@@ -23,7 +23,7 @@ export const loader = async () => {
       {
         slug: "hypermedia-in-the-age-of-ai",
         title: "Hypermedia in the Age of AI",
-        date: "9 May, 2025",
+        date: "18 May, 2025",
         description: "In which I make the case for hypermedia for LLMs.",
       },
       {
