@@ -21,6 +21,12 @@ export const loader = async () => {
     // TODO: - autogenerate this somehow.
     posts: [
       {
+        slug: "ive-soured-on-go",
+        title: "I've Soured on Go",
+        date: "5 June, 2025",
+        description: "Why I don't think Go is the future.",
+      },
+      {
         slug: "hypermedia-in-the-age-of-ai",
         title: "Hypermedia in the Age of AI",
         date: "18 May, 2025",
@@ -108,7 +114,7 @@ export const loader = async () => {
 };
 
 const bio =
-  "Hey, I’m Nick, CTO at a startup called Wakelet. I love Golang and infrastructure, but I enjoy learning about everything Web. Outside of work, I enjoy spending time with my wife and two young daughters, producing electronic music, and playing video games.";
+  "Hey, I’m Nick, CTO at a startup called Wakelet. I love systems and infrastructure, but I enjoy learning about everything Web. Outside of work, I enjoy spending time with my wife and two young daughters, producing electronic music, and playing video games.";
 
 export default function PostSlug() {
   const { posts } = useLoaderData<typeof loader>();
