@@ -21,6 +21,12 @@ export const loader = async () => {
     // TODO: - autogenerate this somehow.
     posts: [
       {
+        slug: "a-tech-retrospective",
+        title: "A tech retrospective",
+        date: "27 June, 2025",
+        description: "A retrospective on my tech journey at Wakelet.",
+      },
+      {
         slug: "ive-soured-on-go",
         title: "I've Soured on Go",
         date: "5 June, 2025",
