@@ -19,7 +19,7 @@ So, without further ado, here's a tech retrospective of my time at Wakelet.
 
 ### Serverless
 
-[I love serverless](https://nickblow.tech/posts/9-lessons-from-9-years-of-serverless). Yeah, it's a bit more expensive. But we literally didn't have an on-call rotation because outages happen so rarely. The extra my sleep and my sanity is worth the $. Cloudflare is innovating a lot here (another reason I joined Iterate, who use them extensively), and is actually significantly cheaper than AWS – despite a few rough edges.
+[I love serverless](https://nickblow.tech/posts/9-lessons-from-9-years-of-serverless). Yeah, it's a bit more expensive. But we literally didn't have an on-call rotation because outages happen so rarely. The extra sleep and my sanity is worth the $. Cloudflare is innovating a lot here (another reason I joined Iterate, who use them extensively), and is actually significantly cheaper than AWS – despite a few rough edges.
 
 ### TailwindCSS
 
