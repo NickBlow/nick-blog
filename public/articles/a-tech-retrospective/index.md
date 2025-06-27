@@ -11,7 +11,7 @@ In terms of what's next, I'm joining Iterate - [https://www.iterate.com/](https:
 
 ## Looking Back
 
-Over the nearly decade at Wakelet, I've made many tech decisions - some good, some bad. More importantly, I have the somewhat unique experience of coming face-to-face with some of my technology decisions years later. I have the privilige of seeing the day 1 AND the day 3000 experience for some of these things!
+Over the nearly decade at Wakelet, I've made many tech decisions - some good, some bad. More importantly, I have the somewhat unique experience of coming face-to-face with some of my technology decisions years later. I have the privilege of seeing the day 1 AND the day 3000 experience for some of these things!
 
 So, without further ado, here's a tech retrospective of my time at Wakelet.
 
