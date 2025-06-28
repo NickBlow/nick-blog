@@ -11,7 +11,7 @@ export const meta: MetaFunction = () => {
     {
       name: "og:description",
       content:
-        "I'm the CTO of a startup called Wakelet. I write about Serverless, Web Tech and my experience engineering at a startup.",
+        "Formerly CTO at Wakelet, now at Iterate. I write about Serverless, Web Tech and my experience engineering at a startup.",
     },
   ];
 };
@@ -120,7 +120,7 @@ export const loader = async () => {
 };
 
 const bio =
-  "Hey, I’m Nick, CTO at a startup called Wakelet. I love systems and infrastructure, but I enjoy learning about everything Web. Outside of work, I enjoy spending time with my wife and two young daughters, producing electronic music, and playing video games.";
+  "Hey, I’m Nick. I was CTO at Wakelet and now work at iterate.com. I love systems and infrastructure, but I enjoy learning about everything Web. Outside of work I spend time with my wife and two young daughters, produce electronic music and play video games. See the reflections post for more.";
 
 export default function PostSlug() {
   const { posts } = useLoaderData<typeof loader>();
