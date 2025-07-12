@@ -21,8 +21,16 @@ export const loader = async () => {
     // TODO: - autogenerate this somehow.
     posts: [
       {
+        slug: "im-sad-we-lost-the-creatives",
+        title: "I'm Sad We Lost the Creatives",
+        date: "12 July 2025",
+        description:
+          "The art community overwhelmingly hates AI, and I think that's a great loss",
+      },
+
+      {
         slug: "a-tech-retrospective",
-        title: "A tech retrospective",
+        title: "A Tech Retrospective",
         date: "27 June, 2025",
         description: "A retrospective on my tech journey at Wakelet.",
       },
