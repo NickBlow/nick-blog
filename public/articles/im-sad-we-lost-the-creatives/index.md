@@ -40,7 +40,7 @@ You see the same with AI. There's a *lot* of garbage. I'm sure there are some ge
 
 ## Tweakability
 
-One of the problems with many creating AI outputs is that they're all or nothing. AI music tools now give you [stems](https://help.suno.com/en/articles/6141441) - audio files for each part of the song, like drums, vocals, etc. But I don't think that's enough. You need to be able to tweak the output somehow – "I want a higher pitched snare", "I want a more organic bass", etc. This is where human creativity and intuition come in. We can refine and polish the AI-generated output to make it sound the way we want.
+One of the problems with many AI outputs is that they're all or nothing. AI music tools now give you [stems](https://help.suno.com/en/articles/6141441) - audio files for each part of the song, like drums, vocals, etc. But I don't think that's enough. You need to be able to tweak the output somehow – "I want a higher pitched snare", "I want a more organic bass", etc. This is where human creativity and intuition come in. We can refine and polish the AI-generated output to make it sound the way we want.
 
 AI for art is all-or-nothing too. Midjourney gives you the whole image. We need layers to import into Photoshop! I want to change the background but keep the character the same. Though things like smart lasso tools can help with this, they're not perfect.
 
