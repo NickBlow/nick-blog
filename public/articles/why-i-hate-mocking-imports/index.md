@@ -93,7 +93,7 @@ However – it's swimming against the flow. Most TypeScript does *not* look like
 
 ## Hidden entry points!
 
-The main reason I end up mocking is actually this reason. Many frameworks like Next, Solid, Astro have a hidden 'index.js' that is very difficult to modify without major hacks. Shout out to React Router for (not doing this)[https://reactrouter.com/api/framework-conventions/entry.server.tsx].
+The main reason I end up mocking is actually this reason. Many frameworks like Next, Solid, Astro have a hidden 'index.js' that is very difficult to modify without major hacks. Shout out to React Router for [not doing this](https://reactrouter.com/api/framework-conventions/entry.server.tsx).
 
 Constructor based dependency injection doesn't work if you don't have access to the constructor! Ever tried to test a Next.js API route? Good luck injecting dependencies into that `export default function handler(req, res)` function - the framework calls it, not you.
 
