@@ -85,7 +85,7 @@ test("getStuff returns database rows", () => {
 });
 ```
 
-I really like this pattern. It's essentially constructor based DI. It's not magic. It's very clear what everything does. There is a layer of inderection because of the interface being passed around instead of a concrete function, which some people don't like. 
+I really like this pattern. It's essentially constructor based DI. It's not magic. It's very clear what everything does. There is a layer of indirection because of the interface being passed around instead of a concrete function, which some people don't like.
 
 However – it's swimming against the flow. Most TypeScript does *not* look like this. Your LLM does not write this code (without Claude.md saying so), and neither does your team mate or OSS contributor.
 
