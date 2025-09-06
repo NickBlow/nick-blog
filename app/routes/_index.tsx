@@ -21,6 +21,12 @@ export const loader = async () => {
     // TODO: - autogenerate this somehow.
     posts: [
       {
+        slug: "why-i-hate-mocking-imports",
+        title: "Why I hate mocking imports in javascript",
+        date: "6 September, 2025",
+        description: "And why I do it anyway",
+      },
+      {
         slug: "im-sad-we-lost-the-creatives",
         title: "I'm Sad We Lost the Creatives",
         date: "12 July 2025",
