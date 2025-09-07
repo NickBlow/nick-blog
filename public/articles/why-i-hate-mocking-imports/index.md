@@ -104,3 +104,27 @@ There are hacky ways of doing this with middleware, but I've always had some iss
 Despite it all, I still reach for `vi.mock`, even though it makes me cringe a bit every time I do it.
 
 However – if you take *one* thing away from this rant – please stop mocking your database. At least make *that* part of your tests less bad.
+
+## Update: X discussions
+
+This article generated a lot of lively debate [over on X](https://x.com/NickBlow/status/1964367142683304048). Sharing my favourite points!
+
+### Effect.ts
+[I remembered Effect after writing the article.](https://x.com/NickBlow/status/1964393158885986767) It's a quite neat (and typesafe) way to handle injecting [services](https://effect.website/docs/requirements-management/services/). It doesn't really solve the hidden entry points issue, but the approach is good. I still think I prefer constructor based DI, but what I've seen of Effect impresses me. I have yet to ship it to production though.
+
+### Some great points from Artem of Mock Service Worker fame
+
+Artem shared a [few](https://x.com/kettanaito/status/1964669226133938467) [good](https://x.com/kettanaito/status/1964670192866537883) [points](https://x.com/kettanaito/status/1964669697015840789). Nothing to add. I completely agree!
+
+![Tweet1](/articles/why-i-hate-mocking-imports/artem-1.png) 
+![Tweet2](/articles/why-i-hate-mocking-imports/artem-2.png) 
+
+### AsyncLocalStorage from @lekedobruna
+
+[@lekedobruna mentioned async local storage.](https://x.com/lekedobruna/status/1964617927505899682) I've dabbled with it in the past (and it's how Cloudflare does the new [global environment imports](https://developers.cloudflare.com/changelog/2025-03-17-importable-env/) IIRC). It's neat, but a little too magic for my taste too.
+
+### Separating handlers and business logic from @NckLcs
+
+[@NckLcs mentioned separating business logic from the handlers](https://x.com/NckLcs/status/1964433929743528287). I broadly agree, and this is one of the better solutions. The big problem is it either adds extra overhead in terms of forcing you to write an e2e test, or to accept that you might have working business logic but bad configuration.
+
+That said, I can't particularly think of a better option!
