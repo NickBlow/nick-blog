@@ -21,6 +21,13 @@ export const loader = async () => {
 		// TODO: - autogenerate this somehow.
 		posts: [
 			{
+				slug: "i-built-an-agent-harness",
+				title: "I built an agent harness",
+				date: "15 May, 2026",
+				description:
+					"I've spent the last ~2 weeks working on my own agent and harness.",
+			},
+			{
 				slug: "a-quick-example-of-alchemy-email-routing-dev",
 				title: "A quick example of Alchemy email routing in dev",
 				date: "28 April, 2026",
