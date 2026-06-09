@@ -9,11 +9,9 @@ import MarkdownItAttributes from "markdown-it-attrs";
 import hljs from "highlight.js"; // https://highlightjs.org
 
 import { plugin, Mode } from "vite-plugin-markdown";
-// @ts-expect-error the plugin uses the initialiser.
 const md = MarkdownIt({
-	highlight: function (str, lang) {
+	highlight: function (str, lang): string {
 		const codeClasses = "p-[15px] pt-[30px] m-0 w-full rounded-[16px]";
-		// @ts-expect-error using the plugin inside the plugin
 		let content = md.utils.escapeHtml(str);
 		if (lang && hljs.getLanguage(lang)) {
 			try {
