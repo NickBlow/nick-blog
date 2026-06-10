@@ -105,6 +105,16 @@ Perhaps this is selection bias. Tolkien is the equivalent of the 100x gigacracke
 
 But art has always been a winner-takes-all market. The best (or most popular, which aren't always the same thing) people claim a disproportionate share of the rewards and the attention. This isn't necessarily anything new.
 
+### On copyrighting styles
+
+I also don't like all the 'it can reproduce the style of this artist/author' discourse. To go back to music, I think the [Blurred Lines lawsuit](https://en.wikipedia.org/wiki/Pharrell_Williams_v._Bridgeport_Music) is one of the worst things to happen to modern music.
+
+Pharrell Williams did not sample, he did not take any lyrics or melodies yet he *still lost* because it 'sounded like Marvin Gaye', and had to pay significant damages.
+
+This is horrible. It only serves to consolidate the rewards for incumbents at the expense of newcomers finding their style. All it takes is for one person to say 'this sounds too much like this other record' and you lose a huge chunk of your royalties. Even if you did not actually take anything from the original record!
+
+It is actively damaging (IMO) to try to seek protection or damages for a 'style' of art. Limiting it only to AI output is impossible to enforce, since it is so hard to definitively prove the use or not of AI (see my 'human' GPT example, above). Real people, and real art, will get caught in the crossfire (and already have been, in the case of music).
+
 ### Honesty and humanity
 
 I think we can also be honest too. I prefer to consume art done by humans *because it is done by humans*. We don't need to pick on the technical or artistic shortcomings of AI in an attempt to discredit it. Maybe the models will get better than Tolkien at writing one day, by some objective measure. We don't need to bend over backwards to nitpick at it. We can just say 'I like Tolkien because he was a meatbag'. That is a completely valid point to make.
