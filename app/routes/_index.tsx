@@ -167,7 +167,7 @@ export const loader = async () => {
 };
 
 const bio =
-	"Hey, I’m Nick. I was CTO at Wakelet and now work at iterate.com. I love systems and infrastructure, but I enjoy learning about everything Web. Outside of work I spend time with my wife and two young daughters, produce electronic music and play video games.";
+	"Hey, I’m Nick. I was a former CTO at Wakelet, a founding eng at iterate.com and now I'm a cofounder of an AI startup. I love systems and infrastructure, but I enjoy learning about everything Web. Outside of work, I spend time with my wife and two young daughters, write and paint miniatures.";
 
 export default function PostSlug() {
 	const { posts } = useLoaderData<typeof loader>();
