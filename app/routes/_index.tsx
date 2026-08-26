@@ -21,6 +21,13 @@ export const loader = async () => {
 		// TODO: - autogenerate this somehow.
 		posts: [
 			{
+				slug: "reason-once-run-many",
+				title:
+					"Reason once, run many.",
+				date: "26 August, 2026",
+				description: "Everything is computer.",
+			},
+			{
 				slug: "computer-use-without-breaking-the-bank",
 				title: "Computer use without breaking the bank",
 				date: "20 August, 2026",
