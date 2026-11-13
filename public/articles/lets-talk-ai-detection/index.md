@@ -62,7 +62,7 @@ Tools like Pangram are our best defense against a deluge of slop in publishing a
 
 Publishers especially should be aggressively screening books with Pangram or the like. Anything above, say, 30% should go straight in the trash without being read. The words are the work! I don’t want to know how many person-hours have been spent reading slop. Pangram’s mistakes are rare and scattered, so a book doesn’t come out at 30% AI (tens of thousands of words of an average novel) by accident.
 
-I’m also completely fine with AI-assisted work, so long as it’s overwhelmingly human. I don’t mind if you took a sentence here and there from an AI suggestion. But I do want to know that there’s a real person with real, original thoughts behind the piece.
+I’m also completely fine with AI-assisted work, so long as it’s overwhelmingly human. I don’t mind if you took a sentence here and there from an AI suggestion. But I do want to know that there’s a real person with real, original thoughts behind the piece. If I wanted a story written by Claude, I can ask it myself.
 
 Instead of demonizing Pangram, we should be encouraging it and expecting more.
 
