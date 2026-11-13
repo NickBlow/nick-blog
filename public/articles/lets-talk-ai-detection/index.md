@@ -64,7 +64,7 @@ Publishers especially should be aggressively screening books with Pangram or the
 
 I’m also completely fine with AI-assisted work, so long as it’s overwhelmingly human. I don’t mind if you took a sentence here and there from an AI suggestion. But I do want to know that there’s a real person with real, original thoughts behind the piece.
 
-Instead of demonizing Pangram, we should be encouraging it and expecting more
+Instead of demonizing Pangram, we should be encouraging it and expecting more.
 
 ## My scorching hot take
 
