@@ -8,6 +8,13 @@ export type BlogPost = {
 
 export const posts = [
 	{
+		slug: "lets-talk-ai-detection",
+		title: "Let's talk AI detection",
+		date: "13 November, 2026",
+		published: "2026-11-13",
+		description: "And the self-defeating anti-Pangram vitriol",
+	},
+	{
 		slug: "reason-once-run-many",
 		title: "Reason once, run many.",
 		date: "26 August, 2026",

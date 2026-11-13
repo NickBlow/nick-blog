@@ -7,3 +7,22 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.markdown-content a.fn-ref {
+    vertical-align: super;
+    font-size: 0.7em;
+    line-height: 0;
+    margin-left: 0.1em;
+    text-decoration: none;
+    color: rgb(37 99 235);
+}
+
+.markdown-content ol.footnotes {
+    list-style: decimal;
+    padding-left: 1.5em;
+    font-size: 0.9em;
+}
+
+.markdown-content ol.footnotes li {
+    margin: 0.25em 0;
+}
