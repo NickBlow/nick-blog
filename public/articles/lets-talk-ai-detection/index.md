@@ -44,7 +44,7 @@ If you can find a piece of content that was written pre 2019 and can prove it, g
 
 ## What if people learn to write more like AI over time, or AI gets better at being human?
 
-Modern models are trained into being incredibly inoffensive, are unable to discern what is funny (because there is no such thing as 'objective' humour), and share Victorian-era sensibilities on sexual content. They relies a lot on cliches and familiar constructions. 
+Modern models are trained into being incredibly inoffensive, are unable to discern what is funny (because there is no such thing as 'objective' humour), and share Victorian-era sensibilities on sexual content. They rely a lot on cliches and familiar constructions. 
 
 If you aspire to write bland, unfunny, unsexy prose, then fine, I guess. Go ask Claude to write you a story, read it, and come back. (or [read the one I added at the bottom](#claudes-story))
 
